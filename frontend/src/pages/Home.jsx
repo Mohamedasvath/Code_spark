@@ -75,7 +75,7 @@ const Home = () => {
       <img
         src={LOGO_URL}
         alt="Code Spark Logo"
-        className="w-20 md:w-20 mt- relative mt-5 z-10 drop-shadow-[0_0_25px_rgba(34,211,238,0.35)]"
+        className="w-20 md:w-20  relative mt-2 z-10 drop-shadow-[0_0_25px_rgba(34,211,238,0.35)]"
       />
     </motion.div>
 
