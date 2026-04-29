@@ -48,8 +48,8 @@ const Home = () => {
 <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 py-10 md:py-16">
   {/* Background Image */}
   <motion.div
-    style={{ scale: heroScale, opacity: heroOpacity }}
-    className="absolute inset-0 z-0"
+    style={{ scale: heroScale,  }}
+    className="absolute inset-0 "
   >
     <img
       src="https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/2/13/1392314553457/Building-for-the-web-inte-006.jpg"
@@ -57,7 +57,7 @@ const Home = () => {
       className="w-full h-full object-cover  "
     />
 
-    <div className="absolute inset-0 bg-gradient-to-b from-[#020408]/70 via-[#020408]/85 to-[#020408]" />
+    <div className="absolute inset-0 bg-gradient-to-b from-[#020408]/75 via-[#020408]/85 to-[#020408]" />
   </motion.div>
 
   {/* Main Content */}
@@ -70,12 +70,12 @@ const Home = () => {
       transition={{ duration: 1.2 }}
       className="relative mb-4"
     >
-      <div className="absolute inset-0 bg-cyan-500/20 blur-[50px] rounded-full" />
+      <div className="absolute inset-0 bg-cyan-500/20 blur-[70px] rounded-full" />
 
       <img
         src={LOGO_URL}
         alt="Code Spark Logo"
-        className="w-16 md:w-24 relative mt-5 z-10 drop-shadow-[0_0_25px_rgba(34,211,238,0.35)]"
+        className="w-23 md:w-30 mt- relative mt-10 z-10 drop-shadow-[0_0_25px_rgba(34,211,238,0.35)]"
       />
     </motion.div>
 
