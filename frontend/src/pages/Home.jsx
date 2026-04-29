@@ -52,7 +52,7 @@ const Home = () => {
     className="absolute inset-0 z-0"
   >
     <img
-      src="https://www.phoenix.edu/content/dam/edu/blog/2023/08/blog-hero-what-is-coding.png"
+      src="https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/2/13/1392314553457/Building-for-the-web-inte-006.jpg"
       alt="Background"
       className="w-full h-full object-cover  "
     />
